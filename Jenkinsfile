@@ -1,7 +1,7 @@
 node {
         stage('Build JAR') {
             // Run the maven build
-//          sh "mvn clean verify"
+          sh "mvn clean verify"
 //           archiveArtifacts 'target/*.jar'
 sh "pwd"
 sh "ls -al"
